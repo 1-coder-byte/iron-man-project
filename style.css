@@ -1,0 +1,36 @@
+h2,h4{color: rgb(67, 139, 115);}
+h1{color: rgb(148, 20, 46);}
+
+.main{
+text-align: center; 
+width:  80%;
+margin:auto;}
+
+.main>img{width:35%}
+
+p{text-align: left;
+font-size: 14px;
+font-weight:bold}
+
+.module {
+    background: white;
+    border: 1px solid #ccc;
+    margin: 3%;
+    
+  }
+  
+  .stripe-2 {
+    color: black;
+    background: repeating-linear-gradient(
+      45deg,
+      transparent,
+      transparent 10px,
+      #ccc 10px,
+      #ccc 20px
+    ),
+    linear-gradient(
+      to bottom,
+      #eee,
+      #999
+    )
+  }
